@@ -1,0 +1,67 @@
+/* UserFetcher.css */
+
+.container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  span {
+    font-size: 1.2rem;
+  }
+  
+  .user-data {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-data p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .loading {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
